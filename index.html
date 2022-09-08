@@ -1,46 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="styles.css">
   <title>Frontend Mentor | Product preview card component</title>
-  <style>
-    .attribution { 
-    font-size: 11px;
-    text-align: center; 
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
-    color: hsl(228, 12%, 48%);
-    line-height: 27px;
-    }
-  </style>
 </head>
+
 <body>
-  <div class="container">
-    <div class="left-container">
-      <img src="images/image-product-desktop.jpg" alt="" class="img">
+  <main>
+    <div class="left"></div>
+    <div class="right">
+      <p>PERFUME</p>
+      <h1>Gabrielle Essence Eau De Parfum</h1>
+      <span>A floral, solar and voluptuous interpretation composed by Olivier Polge,
+        Perfumer-Creator for the House of CHANEL.</span>
+      <div class="price">
+        <span class="offprice">$149.99</span>
+        <span>$169.99</span>
+      </div>
+      <button>
+        <img src="images/icon-cart.svg" alt="">
+        Add to Cart
+      </button>
     </div>
-    <div class="right-container">
-      <div class="first">Perfume</div>
-      <div class="sec"><h1>Gabrielle Essence Eau De Parfum</h1></div>
-      <div class="third">
-        <span class="text">A floral, solar and voluptuous interpretation composed by Olivier Polge, 
-  Perfumer-Creator for the House of CHANEL.</span> 
-      </div>
-      <div class="four">
-        <span class="left">$149.99</span>
-         <span class="right">$169.99</span>
-      </div>
-      <div class="fifth">
-        <button class="cart"><img src="images/icon-cart.svg" alt="" class="cart_img"> Add to Cart</button>
-      </div>
-    </div>
-  </div>
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="https://github.com/HinaSejaru124">HinaSejaru124</a>.
-  </div>
+  </main>
 </body>
+
 </html>
